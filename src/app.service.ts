@@ -9,6 +9,7 @@ export interface iTrack{
 }
 
 export const tracks: iTrack[] = [
+  /*
   {
     id:1,
     title: "cancion 1",
@@ -33,6 +34,7 @@ export const tracks: iTrack[] = [
     duration: 150,
     artist:"interprete 4"
   }
+    */
 ]
 
 @Injectable()

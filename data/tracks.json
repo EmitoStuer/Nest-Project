@@ -1,0 +1,22 @@
+{
+    "tracks": [
+        {
+            "id": 1,
+            "title": "cancion 1",
+            "duracion": 120,
+            "artista": "interprete 1"
+        },
+        {
+            "id": 2,
+            "title": "cancion 2",
+            "duracion": 130,
+            "artista": "interprete 2"
+        },
+        {
+            "id": 3,
+            "title": "cancion 3",
+            "duracion": 220,
+            "artista": "interprete 3"
+        }
+    ]
+}
