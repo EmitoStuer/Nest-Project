@@ -8,7 +8,7 @@ export class AppController {
   constructor(private readonly appService: AppService) {}
 
   @Get()
-  getTrack(): string {
+  getHola(): string {
     return this.appService.getHello();
   }
 }
