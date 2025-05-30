@@ -1,6 +1,7 @@
 import { Injectable } from '@nestjs/common';
 //Logica de Negocio de La aplicacion.
 
+/*
 export interface iTrack{
   id: number,
   title: string,
@@ -9,7 +10,7 @@ export interface iTrack{
 }
 
 export const tracks: iTrack[] = [
-  /*
+
   {
     id:1,
     title: "cancion 1",
@@ -34,12 +35,12 @@ export const tracks: iTrack[] = [
     duration: 150,
     artist:"interprete 4"
   }
-    */
-]
 
+]
+*/
 @Injectable()
 export class AppService {
-  getTracks(): iTrack[] {
-    return tracks;
+  getHello(): string {
+    return "HOLA MUNDO";
   }
 }
